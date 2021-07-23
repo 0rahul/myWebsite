@@ -61,7 +61,7 @@ return (
 }
 <div>
 <h1 
-        style={{ paddingTop: '5rem' , fontSize:'25px',textAlign:'center', margin: 'auto 0', fontFamily:'sans-serif' }}
+        style={{ paddingTop: '5rem' , fontSize:'25px',textAlign:'center', margin: 'auto 0', fontFamily:'serif' }}
       >
          A passionate {' '}
         <span style={{ color: 'purple', fontWeight: 'bold' }}>
@@ -74,7 +74,7 @@ return (
             typeSpeed={60}
             deleteSpeed={100}
             delaySpeed={1000}
-            onLoopDone={() => console.log(`Done after 10 loops!`)}
+            onLoopDone={() => console.log(`Done after 100 loops!`)}
           />
         </span>
       </h1>

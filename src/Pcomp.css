@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#photo{
+    width: 100px;
+    height: 110px;
+    text-align: center;
+    margin-left: 6px;
+}
+#h4{
+    font-family: serif;
+    font-size: 20px;
+    color: white;
+}
+#h5s{
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+}
+.cardsss{
+    width: 250px;
+    height: 270px;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    text-align: center;
+    
+}
+
+.mySwiper{
+    margin-top: 4rem;
+    padding: 40px;
+    background-color: rgb(12, 12, 12);
+
+}
+.bode{
+    width: 100vw;
+box-shadow: 2px 3px 500px rgb(134, 126, 126);
+}
+.swiper-button-next { 
+    color:white;
+    margin-right: 10px;
+ }
+.swiper-button-prev{
+    color: white;
+
+}
+.swiper-pagination-bullet{
+   background-color: white !important;
+   margin-top: 20px;
+}
+
+@media (max-width: 768px){
+    .cardsss{
+        margin-top: 4rem;
+        margin-left: 20px;
+    width: 100px;
+    height: auto;
+    }
+    #photo{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #h5s{
+        font-size: 10px;
+        color: black;
+    }
+    #h4{
+        font-size: 20px;
+        color: black;
+
+    }
+    .mySwiper{
+        margin-top: 0rem;
+        padding: 40px;
+        background-color: white;
+    
+    }
+  .mySwiper-navigation{
+        display: none;
+    }
+}

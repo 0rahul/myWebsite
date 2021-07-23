@@ -3,7 +3,7 @@ import './index.css';
 import NavBar from './Navbar';
 import {Switch,Route} from 'react-router-dom';
 import Resume from './Resume';
-import Project from './Projects.jsx';
+
 
 
 const App=()=>{

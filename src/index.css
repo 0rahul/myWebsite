@@ -143,7 +143,7 @@
   #iccns{
       
       cursor: pointer;
-      color: blue;
+      color: rgb(86, 86, 247);
       transition: 0.2s;
       
 
@@ -152,7 +152,7 @@
       transform: scale(1.05);
   }
   #iccn{
-      color: red;
+      color: rgb(248, 27, 101);
       transition: 0.2s;
   }
   #iccn:hover{
@@ -166,7 +166,7 @@
   }
  .reume{
      width: 100vw;
-     height: 100vh;
+     height: auto;
  }
  #Resum{
      width:100vw;
@@ -181,6 +181,7 @@
      border-radius: 15px;
      margin-left: 2rem;
      box-shadow: 3px 4px 20px rgb(162, 170, 241);
+     border: 5px solid black;
 
  }
  #bsado:hover{
@@ -210,6 +211,8 @@
      transition: 0.2s;
      box-shadow: 3px 4px 20px rgb(162, 170, 241);
     border-radius: 20px;
+    border: 5px solid black;
+
  }
  #musicweb:hover{
      transform: scale(1.03);
@@ -263,9 +266,9 @@
 Label{
     font-size: 17px;
     color: green;
-    margin-left: 10rem;
-    padding-top: -20px;
     transition: 0.2s;
+    float: right;
+    padding-right: 20px;
 }
 Label:hover{
     transform: scale(1.05);
